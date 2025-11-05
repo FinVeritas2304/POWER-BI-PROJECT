@@ -1,56 +1,37 @@
-# Data Analytics Dashboard – Power BI
+AtliQ Hardware Power BI Dashboard
+This repository contains the Power BI project developed for AtliQ Hardware, which provides comprehensive data analytics to enhance decision-making across key business domains, including Finance, Sales, Marketing, and Supply Chain. The project utilizes Power BI to generate insights that help stakeholders make informed, data-driven decisions in a competitive market.
 
-**Author:** Ankur Kumar  
-**Email:** [ankurkumar12dc@gmail.com](mailto:ankurkumar12dc@gmail.com)  
-**Live Dashboard:** [View on Power BI](https://app.powerbi.com/groups/me/reports/34f0a595-4ce3-46c3-8a2f-b68350cc81d1/ReportSection41b5e64bba31a4a625f4?experience=power-bi)  
-**Year:** 2024  
+Project Overview
+As AtliQ Hardware experiences rapid growth, implementing Power BI represents a strategic initiative to leverage data analytics to improve business performance and gain a competitive edge. This dashboard serves as a vital tool for addressing stakeholder questions and tracking critical key performance indicators (KPIs) across various business areas.
 
----
+Objectives:
+To provide actionable insights through interactive dashboards.
+To facilitate data-driven decision-making for stakeholders.
+To enhance visibility into business performance across multiple domains.
+Tools & Technologies
+The following tools and technologies have been utilized in this project:
 
-## 📊 Overview
-Interactive **Power BI dashboard** analyzing the **Spotify 2023 dataset (Kaggle)** to uncover insights into top artists, genres, and track features.  
-The dashboard integrates with **AWS data-pipeline outputs** and provides **business-ready visualizations**.
+Power BI Desktop: For building and designing interactive dashboards.
+SQL: For querying and managing data from the MySQL database.
+Excel: For data manipulation and analysis.
+DAX Language: For creating measures and calculated columns.
+DAX Studio: For optimizing the performance of DAX queries.
+Features
+The project includes several key features that enhance the functionality and usability of the dashboards:
 
----
+Dynamic Dashboards: A home view with buttons that allow users to navigate easily between different views, including Finance, Sales, Marketing, Supply Chain, and Executive summaries.
+DAX Measures & Calculated Columns: Essential calculations to derive insights such as gross margin, net sales, and year-to-date (YTD) metrics.
+Data Modeling: Effective data modelling techniques, including relationship creation and the implementation of a date table using M language.
+Conditional Formatting & KPIs: Enhanced visualizations using KPI indicators and conditional formatting to highlight important metrics and trends.
+Power BI Services: Deployment of reports to Power BI Services with auto-refresh capabilities for real-time data updates.
+Key Business Metrics
+The dashboard tracks several critical business metrics, including:
 
-## ⚙️ Workflow
-`AWS Glue ETL → S3 Clean Data → Athena Queries → Power BI Visualization`
-
----
-
-## 🧰 Tools & Technologies
-- **Power BI Desktop / Service**
-- **AWS S3**, **AWS Glue**, **Athena**
-- **Python**, **Pandas**
-- **Kaggle Spotify 2023 Dataset**
-
----
-
-## ✨ Dashboard Features
-- 🎤 Top Streamed Artists and Tracks  
-- 🎵 Genre Popularity Analysis  
-- 📈 Year-over-Year Trends and Growth  
-- 🔥 Audio Feature Correlations (Tempo, Energy, Danceability)  
-- 📊 Dynamic KPIs and Filter Slicers  
-
----
-
-## 🔍 Key Insights
-- Tracks with **high danceability + medium tempo** are most popular  
-- **Pop and Hip-Hop** dominate recent years  
-- Continuous growth in streaming volume and artist diversity  
-
----
-
-## 🚀 Outcome
-Delivered a **professional, interactive dashboard** combining cloud data engineering and business intelligence skills.  
-Perfect demonstration for **Data Engineer / BI Developer** roles.
-
----
-
-## 🗂️ How to Use
-1. Clone the repo `git clone https://github.com/yourusername/PowerBI-Spotify-Project.git`
-2. Open `spotify_powerbi.pbix` in Power BI Desktop  
-3. Replace data source with your Athena/S3 connection  
-4. Refresh to load latest data  
-5. Explore insights or publish to Power BI Service
+Gross Price
+Net Invoice Sale
+Gross Margin
+Net Profit
+Cost of Goods Sold (COGS)
+Year-to-Date (YTD) & Year-to-Go (YTG) metrics
+Contact
+For any questions, feedback, or collaboration inquiries, please feel free to reach out via [ANKURKUMAR@gmail.com]
