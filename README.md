@@ -1,4 +1,4 @@
-# 🎵 Spotify Data Analytics Dashboard – Power BI
+# Data Analytics Dashboard – Power BI
 
 **Author:** Ankur Kumar  
 **Email:** [ankurkumar12dc@gmail.com](mailto:ankurkumar12dc@gmail.com)  
